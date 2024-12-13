@@ -141,7 +141,7 @@ if prediction!=0:
             st.video("https://youtu.be/wKviYRDd9Ns?si=HAQAwwJgZPUbAvcL")  # YouTube 릴스 썸네일
             st.text("질병이 불분명해서 수명을 특정하기 어려워요ㅠㅠ 심각한 병을 앓고 있다면 병원을 방문해보세요!")
 
-    elif 40 < prediction <= 50:
+    elif 40 < prediction and prediction <= 50:
         st.write("### Prediction Result: Low Price Segment")
         col1 = st.columns(3)
 
@@ -151,7 +151,7 @@ if prediction!=0:
             st.text("건강 챙기셔야 해요!! 위험해요!!")
 
 
-    elif 50 < prediction <= 65:
+    elif 50 < prediction and prediction <= 65:
         st.write("### Prediction Result: Medium Price Segment")
         col1 = st.columns(3)
 
@@ -160,7 +160,7 @@ if prediction!=0:
             st.video("https://youtube.com/shorts/FwAUbhqjiq4?si=m1srtSRtMk0_4MZm")
             st.text("건강을 좀 더 챙기셔야될 거 같아요. 건강하세요~")
 
-     elif 65 < prediction <= 80:
+     elif 65 < prediction and prediction <= 80:
         st.write("### Prediction Result: Medium Price Segment")
         col1 = st.columns(3)
 
@@ -169,7 +169,7 @@ if prediction!=0:
             st.video("https://youtube.com/shorts/bW_I9ASdr9w?si=OhkbNXDoX4wmgWfv")
             st.text("운동을 조금 더 해보는 건 어떨까요?")
 
-     elif 85 < prediction <= 100:
+     elif 85 < prediction and prediction <= 100:
         st.write("### Prediction Result: Medium Price Segment")
         col1 = st.columns(3)
 
