@@ -132,7 +132,7 @@ if st.button("Predict"):
 
 # 예측 결과에 따라 콘텐츠 표시
 if prediction!=0:
-    if prediction = 50:
+    if prediction <= 50:
         st.write("### Prediction Result: Low Price Segment")
         col1 = st.columns(3)
 
