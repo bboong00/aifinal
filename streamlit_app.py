@@ -160,7 +160,7 @@ if prediction!=0:
             st.video("https://youtube.com/shorts/FwAUbhqjiq4?si=m1srtSRtMk0_4MZm")
             st.text("건강을 좀 더 챙기셔야될 거 같아요. 건강하세요~")
 
-     elif prediction > 65 and prediction <= 85:
+    elif prediction > 65 and prediction <= 85:
         st.write("### Prediction Result: Medium Price Segment")
         col1 = st.columns(3)
 
@@ -169,7 +169,7 @@ if prediction!=0:
             st.video("https://youtube.com/shorts/bW_I9ASdr9w?si=OhkbNXDoX4wmgWfv")
             st.text("운동을 조금 더 해보는 건 어떨까요?")
 
-     elif prediction > 85 and prediction <= 100:
+    elif prediction > 85 and prediction <= 100:
         st.write("### Prediction Result: Medium Price Segment")
         col1 = st.columns(3)
 
